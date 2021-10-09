@@ -8,15 +8,15 @@
 
 <AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.javafx.controller.CustomerAddFormController">
    <children>
-      <Label layoutX="197.0" layoutY="25.0" text="Customer Add">
-         <font>
-            <Font name="System Bold" size="28.0" />
-         </font>
-      </Label>
       <Button layoutX="240.0" layoutY="236.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="32.0" prefWidth="99.0" text="Save" />
       <JFXTextField fx:id="txtId" labelFloat="true" layoutX="39.0" layoutY="98.0" promptText="ID" />
       <JFXTextField fx:id="txtName" labelFloat="true" layoutX="356.0" layoutY="98.0" promptText="Name" />
       <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="39.0" layoutY="167.0" promptText="Address" />
       <JFXTextField fx:id="txtSalary" labelFloat="true" layoutX="356.0" layoutY="167.0" promptText="Salary" />
+      <Label layoutX="173.0" layoutY="30.0" text="Customer Form" textFill="#d03131">
+         <font>
+            <Font name="Comic Sans MS Bold" size="32.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
