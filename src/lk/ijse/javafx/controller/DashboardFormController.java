@@ -31,8 +31,12 @@ public class DashboardFormController {
     }
 
     @FXML
-    void btnItemOnAction(ActionEvent event) {
-
+    void btnItemOnAction(ActionEvent event) throws IOException {
+        Parent load = FXMLLoader.load(getClass().getResource("../view/ItemAddForm.fxml"));
+        Scene scene = new Scene(load);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
     }
 
 }
